@@ -1,0 +1,5 @@
+streamlit==1.21.0  # Asegúrate de usar la versión correcta que estés utilizando
+streamlit
+pandas
+openpyxl
+numpy
