@@ -1,0 +1,139 @@
+/* Titulo Tulsa */
+
+.titulo-tulsa {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.titulo-tulsa .tul {
+    color: #00478d; /* Azul marino */
+}
+
+.titulo-tulsa .sa {
+    color: rgb(190, 2, 2); /* Rojo */
+}
+
+/* Sección Calculo de Bono */
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Encabezados */
+h2, h3, h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* Botones */
+.stButton > button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: 2px solid #007BFF;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Resultados de Promedio */
+.resultado-promedio {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 6px;
+    color: #00796b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #2C2F3F;
+    color: #E0E0E0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    height: 100%;
+}
+
+/* Títulos en Sidebar */
+.sidebar .sidebar-content h1,
+.sidebar .sidebar-content h2,
+.sidebar .sidebar-content h3 {
+    color: #F0F0F0;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Enlaces en Sidebar */
+.sidebar .sidebar-content a {
+    color: #E0E0E0;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+    padding: 8px 0;
+    border-radius: 6px;
+}
+
+.sidebar .sidebar-content a:hover {
+    background-color: #4B79A1;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Botones en Sidebar */
+.sidebar .sidebar-content button {
+    background-color: #1A73E8;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sidebar .sidebar-content button:hover {
+    background-color: #1565C0;
+    transition: background-color 0.3s ease;
+}
+
+/* Separadores */
+.sidebar .sidebar-content hr {
+    border: 0;
+    border-top: 1px solid #444444;
+    margin: 20px 0;
+    opacity: 0.5;
+}
